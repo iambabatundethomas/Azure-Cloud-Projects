@@ -53,11 +53,17 @@ SAS allows secure, time-limited access to storage resources without exposing you
 
 ## 📸 Screenshots
 
-![Storage Account](screenshots/storage-account-created.png)  
-![Container](screenshots/blob-container-created.png)  
-![Upload](screenshots/file-uploaded.png)  
-![SAS](screenshots/sas-generated.png)  
-![SAS Working](screenshots/sas-link-working.png)  
+### 🗂️ Storage Account Created
+![Storage Account](screenshots/Storage Account Created.png)
+
+### 📦 Blob Container Created
+![Blob Container](screenshots/Blob Container Created.png)
+
+### 📤 File Uploaded to Blob Storage
+![File Upload](screenshots/File Uploaded.png)
+
+### 🔗 SAS Link Generated & Working
+![SAS Link](screenshots/SAS Link Working.png)
 
 ---
 
