@@ -1,74 +1,85 @@
-# 🚀 Azure Project 3 – Storage & Secure File Sharing
+# ☁️ Azure Storage Lab – Secure File Sharing with SAS
 
 ## 📌 Project Overview
-This project demonstrates how to securely store and share files in Microsoft Azure using Blob Storage and Shared Access Signatures (SAS).
+This project demonstrates how to deploy and configure Azure Storage services to securely store and share files using Shared Access Signatures (SAS).
+
+The goal was to understand how cloud storage works in real-world environments and how to control secure access to resources.
 
 ---
 
 ## 🎯 Objectives
-
-- Understand Azure Storage Accounts  
-- Upload and manage files using Blob Containers  
-- Generate secure access links (SAS)  
-- Share files without exposing storage keys  
+- Create and configure an Azure Storage Account  
+- Deploy a Blob Container  
+- Upload and manage files in Azure  
+- Generate secure access using SAS tokens  
+- Validate secure external access via URL  
 
 ---
 
-## 🏗️ What I Built
+## 🏗️ Architecture
+This project uses Azure Blob Storage to store files and SAS tokens to grant time-limited access.
 
+**Flow:**
+1. Storage Account created  
+2. Blob Container deployed  
+3. File uploaded to container  
+4. SAS token generated  
+5. Secure access link tested  
+
+---
+
+## 🛠️ Technologies Used
+- Microsoft Azure  
 - Azure Storage Account  
-- Blob Container  
-- Uploaded file to Azure  
-- Generated SAS (Shared Access Signature)  
-- Accessed file securely via browser  
+- Blob Storage  
+- Shared Access Signature (SAS)  
+- Azure Portal  
 
 ---
 
-## 🔐 Key Concept – SAS (Shared Access Signature)
-
-SAS allows secure, time-limited access to storage resources without exposing your account keys.
-
-- Controlled permissions (Read only)  
-- Set expiry time  
-- Secure external sharing  
-
----
-
-## 🧪 Validation
-
-- Generated SAS URL  
-- Opened file in browser without login  
-- Confirmed secure access works  
+## 🔐 Key Concepts Learned
+- Blob storage structure (Containers & Blobs)  
+- Access tiers (Hot, Cool, Archive)  
+- Secure file sharing using SAS  
+- Principle of least privilege in cloud storage  
+- Managing public vs private access  
 
 ---
 
-## 🧠 Skills Learned
+## 🚀 Project Outcome
+Successfully deployed a secure cloud storage solution and implemented controlled access to files using SAS tokens.
 
-- Azure Blob Storage fundamentals  
-- Secure file sharing in cloud  
-- Access control via SAS tokens  
-- Storage account structure  
-
----
-
-## 📸 Screenshots
-
-### 🗂️ Storage Account Created
-![Storage Account](screenshots/Storage Account Created.png)
-
-### 📦 Blob Container Created
-![Blob Container](screenshots/Blob Container Created.png)
-
-### 📤 File Uploaded to Blob Storage
-![File Upload](screenshots/File Uploaded.png)
-
-### 🔗 SAS Link Generated & Working
-![SAS Link](screenshots/SAS Link Working.png)
+This project demonstrates practical understanding of:
+- Cloud storage architecture  
+- Secure access management  
+- Real-world Azure implementation  
 
 ---
 
-## 🚀 Next Steps
+## 📚 What I Would Improve Next
+- Implement Role-Based Access Control (RBAC)  
+- Automate uploads using Azure CLI / PowerShell  
+- Integrate storage with a web application  
+- Add monitoring and logging  
 
-- Implement lifecycle management (Hot → Cool → Archive)  
-- Explore Azure File Shares  
-- Integrate storage with applications  
+---
+
+## 🔗 Related Projects
+- Project 1: Azure VM & Networking Deployment  
+- Project 2: Network Security Groups & Hardening  
+
+---
+
+## 👨🏽‍💻 About Me
+Service Desk Technician transitioning into Azure Cloud Engineering.
+
+- AZ-900 & SC-900 Certified  
+- Building hands-on Azure projects  
+- Currently studying for AZ-104  
+
+📌 Documenting my journey into Cloud Engineering.
+
+---
+
+## 🤝 Let’s Connect
+If you're also learning Azure or working in cloud, let’s connect and grow together.
