@@ -17,10 +17,10 @@ This project demonstrates how to deploy a web application using Azure App Servic
 ## 📸 Screenshots
 
 ### Web App Running in Browser
-![Web App Screenshot](screenshots/webapp-running.png)
+
 
 ### Azure App Service Configuration
-![Azure Portal Screenshot](screenshots/azure-portal.png)
+
 
 ## 🧠 Key Learnings
 - How Azure App Service hosts applications without managing servers
